@@ -99,7 +99,75 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
-            
+            <form class="q8-form">
+              <div class="q8-form-title">
+                <p class="title-message">Form Exercise</p>
+              </div>
+              <div class="clearfix">
+                <div class="q8-form-main">
+                  <div class="input-area">
+                    <ul class="form-ul">
+                      <li class="clearfix">
+                        <p class="form-title">名前<span class="required-form">*</span></p>
+                        <div class="form-content">
+                          <input class="form-input form-init" type="text" name="name" required>
+                        </div>
+                      </li>
+                      <li class="clearfix">
+                        <p class="form-title">性別</p>
+                        <div class="form-content">
+                          <label>
+                            <input class="radio-btn" type="radio" name="gender" value="male">
+                            <span class="radio-text">男性</span>
+                          </label>
+                          <label>
+                            <input class="radio-btn" type="radio" name="gender" value="female">
+                            <span class="radio-text">女性</span>
+                          </label>
+                        </div>
+                      </li>
+                      <li class="clearfix">
+                        <p class="form-title">出身</p>
+                        <div class="form-content select-box">
+                          <select name="hometown" class="form-select form-init">
+                            <option value="tokyo">東京</option>
+                            <option value="saitama">埼玉</option>
+                            <option value="chiba">千葉</option>
+                            <option value="kanagawa">神奈川</option>
+                          </select>
+                        </div>
+                      </li>
+                      <li class="clearfix">
+                        <p class="form-title">Eメール<span class="required-form">*</span></p>
+                        <div class="form-content">
+                          <input class="form-input form-init" type="text" name="email" placeholder="ex) hoge@gmail.com" required>
+                        </div>
+                      </li>
+                      <li class="clearfix">
+                        <p class="form-title">電話番号</p>
+                        <div class="form-content">
+                          <input class="form-input form-init" type="text" name="tel" placeholder="ex) 08012345678">
+                        </div>
+                      </li>
+                      <li class="clearfix">
+                        <div class="form-content">
+                          <div class="form-checkbox">
+                            <input class="twenty-check" id="form-checkbox" type="checkbox" name="twenty" value="true">
+                            <label for="form-checkbox" class="checkbox-label">20歳以上です</label>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="submit">
+                    <button class="submit-btn form-init" type="submit">送信</button>
+                  </div>
+                </div>
+                <div class="q8-form-sub">
+                  <textarea class="from-textarea form-init" name="message" placeholder="何かあれば入力してください。"></textarea>
+                </div>
+              </div>
+            </form>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
