@@ -12,21 +12,17 @@
   margin-top: 0px;
 }
 
-.q4-block-static1 {
+.q4-content-block {
   display: table-cell;
+  padding: 20px;
+}
+
+.q4-block-static-up {
   width: 100px;
-  padding: 20px;
 }
 
-.q4-block-static2 {
-  display: table-cell;
+.q4-block-static-under {
   width: 500px;
-  padding: 20px;
-}
-
-.q4-block-fixed {
-  display: table-cell;
-  padding: 20px;
 }
 
 .bgcolor-pink {

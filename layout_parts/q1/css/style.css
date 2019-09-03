@@ -11,8 +11,9 @@
 .q1-content-box {
   width: 230px;
   margin-left: 20px;
-  border: 20px solid #3274ae;
+  padding: 20px;
   float: left;
+  background-color: #3274ae;
 }
 
 .q1-content .q1-content-box:first-child {

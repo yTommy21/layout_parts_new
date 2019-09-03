@@ -27,13 +27,6 @@
   text-align: center;
 }
 
-.q3-table tbody tr td:first-child {
-  font-size: 18px;
-  line-height: 26px;
-  background-color: #2244aa;
-  color: #ffffff;
-}
-
 .q3-table tbody tr td:not(:nth-child(1)) {
   font-size: 16px;
   line-height: 22px;
@@ -50,13 +43,5 @@
 .q3-table tbody tr:last-child {
   border-top: 2px dashed #000;
 }
-
-.th-cell {
-  font-size: 18px;
-  line-height: 26px;
-  background-color: #2244aa;
-  color: #ffffff;
-}
-
 
 /* 回答はここに書いてね */
