@@ -3,7 +3,7 @@
 /* 回答はここに書いてね */
 .q4-content {
   display: table;
-  margin-top: 10px;
+  margin-top: 20px;
   width: 100%;
   text-align: center;
 }
@@ -17,11 +17,11 @@
   padding: 20px;
 }
 
-.q4-block-static-up {
+.q4-block-static-short {
   width: 100px;
 }
 
-.q4-block-static-under {
+.q4-block-static-long {
   width: 500px;
 }
 
@@ -49,8 +49,8 @@
   background-color: #8fdcad;
 }
 
-.q4 {
-  padding: 10px;
+.q4-padding {
+  padding: 20px;
 }
 
 /* 回答はここに書いてね */

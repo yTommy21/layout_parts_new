@@ -17,10 +17,8 @@
   height: 0;
   top: 152px;
   left: 30px;
+  border: 25px solid transparent;
   border-top: 25px solid #000;
-  border-left: 25px solid transparent;
-  border-right: 25px solid transparent;
-  border-bottom: 25px solid transparent;
 }
 
 .balloon:after {
@@ -31,10 +29,8 @@
   height: 0;
   top: 144px;
   left: 30px;
+  border: 25px solid transparent;
   border-top: 25px solid #fff;
-  border-left: 25px solid transparent;
-  border-right: 25px solid transparent;
-  border-bottom: 25px solid transparent;
 }
 
 .balloon-text {
